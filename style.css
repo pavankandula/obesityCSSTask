@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+:root{
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #F2F2F2;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin: 10px;
+}
+.topleft{
+    margin-top: 0px;
+    padding: 0px;
+}
+.header{
+    margin-top: 16px;
+}
+.heading{
+    font-size: 48px;
+    font-weight: 200;
+    text-align: center;
+}
+.obesity{
+    color: #19AEC2;
+}
+.infographics{
+    color:#F5C72C;
+}
+.tophead{
+    color: #929191;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+.partTitle{
+    text-align: left;
+}
+.partHeading{
+    font-size: 41px;
+    color: #335568;
+    text-align: left;
+    margin: 0px;
+}
+.part1content{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.part1text{
+    color: #19AEC2;
+    font-size: 18px;
+    margin: 0px;
+}
+.cupcakeimg{
+    margin-top: 0px;
+    position: relative;
+    top: -58px;
+    left: 20px;
+}
+.group1img{
+    height: auto;
+    position: relative;
+    top: -70px;
+    right: 29px;
+}
+.subNutrient{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nutrientTitle{
+    color: #19AEC2;
+    font-size: 2em;
+}
+.nutrientPercent{
+    color: #F5C72C;
+    font-size: 4.5em;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 3em;
+}
+.innerPart{
+    display: flex;
+    flex-direction: row;
+}
+.part{
+    display: flex;
+    flex-direction: column;
+}
+.number{
+    color: #F5C72C;
+    font-size: 4em;
+    text-align: right;
+    margin-top:0px
+}
+.usageData{
+    color: #19AEC2;
+    font-size: 18px;
+    margin: 0px;
+    text-align: right;
+}
+.subpeopleTitle{
+    color: #F5C72C;
+    font-size: 1.8em;
+}
+.subPeopleData{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+}
+.subPeoplePercent{
+    color: #335568;
+    font-size: 2.5em;
+}
+.part3{
+    position: relative;
+    left: -36px;
+}
+.part4{
+    position: relative;
+    left: -74px;
+}
+.problem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.problemPeople{
+    color: #F5C72C;
+    font-size: 2em;
+}
+.people{
+    color: #F5C72C;
+    font-size: 1.3em;
+}
+.problemText{
+    color: #19AEC2;
+    margin: 0px;
+}
+.v1{
+  border-left: 1px dashed #19AEC2;
+  height: 500px;
+}
